@@ -1,0 +1,46 @@
+/* le paragraphe s'affiche verticalement */
+p {
+    margin: 10px 10px;
+    writing-mode: vertical-lr;
+    transform: rotate(180deg);
+    font-weight: bold;
+    font-family: 'Inter', sans-serif;
+}
+
+/* container fixe */
+.header-container {
+    position: fixed;
+    left: 0;
+    top: 0;
+    width: 100px;
+    height: 100%;
+    background-color: #EEDFD4;
+}
+
+/* container en colonne  */
+.display-flex {
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
+    height: 100%;
+}
+
+.rubrique {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    height: 50.33%;
+    border-bottom: 2px solid black;
+
+}
+
+.rubrique .vide {
+    height: 470px;
+}
+
+/* border  */
+.rubrique:last-child {
+    border: none;
+}
+
