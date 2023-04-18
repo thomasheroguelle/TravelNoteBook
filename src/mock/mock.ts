@@ -22,9 +22,9 @@ export const ARTICLES: Article[] = [
       city: "Tirana",
       beginDate: new Date(2022, 3, 14),
       endDate: new Date(2022, 4, 17),
-      image: "src/assets/albanie.png",
+      image: "assets/albanie.png",
       secondaryImages: [
-        "src/assets/albanie.png"
+        "assets/albanie.png"
       ],
       description: "Lorem ipsum dolor sit amet, consectetur adipiscing elit. Donec tempor massa id sem iaculis, et rutrum ligula ornare. Etiam malesuada diam justo, nec sagittis ligula rhoncus sit amet. Fusce ac viverra nisi. Integer nibh urna, posuere euismod dolor ac. Donec commodo pellentesque sapien eu interdum. Vestibulum neque nulla, mattis eget hendrerit nec, tempus pharetra est. Nulla facilisi. Curabitur elit lorem, rhoncus quis quam et, imperdiet euismod mi. Morbi eget elit ac velit porttitor sodales. Nulla scelerisque risus ex, a faucibus est eleifend sed. Aliquam ac facilisis lorem, ut ornare velit. Dignissim metus. Aliquam dignissim lorem id nisi aliquet, a sodales ipsum dignissim.",
       negativePoints: [
