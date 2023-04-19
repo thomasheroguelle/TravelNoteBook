@@ -1,5 +1,10 @@
+
+
 <ul style="display: flex; justify-content: center;">
-    <li style="list-style: none;" *ngFor="let article of test">
+    <li 
+    style="list-style: none;" *ngFor="let article of test">
+        <a routerLink="/article/{{article.id}}"> 
         <img src="{{ article.image }}" alt="">
+    </a>
     </li>
 </ul>

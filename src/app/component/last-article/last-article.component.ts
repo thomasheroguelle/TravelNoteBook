@@ -1,5 +1,6 @@
 import { Component } from '@angular/core';
-import { ARTICLES } from 'src/mock/mock';
+import { ActivatedRoute, Router } from '@angular/router';
+import { ARTICLES, IArticle } from 'src/mock/mock';
 
 @Component({
   selector: 'app-last-article',
@@ -8,6 +9,10 @@ import { ARTICLES } from 'src/mock/mock';
 })
 export class LastArticleComponent {
 
-  test = ARTICLES; 
 
+  // boucle image 
+  test: IArticle[] = ARTICLES;
+
+ 
 }
+
