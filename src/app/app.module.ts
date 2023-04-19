@@ -10,6 +10,7 @@ import { ArticleComponent } from './pages/article/article.component';
 import { LastArticleComponent } from './component/last-article/last-article.component';
 import { ResumeComponent } from './component/resume/resume.component';
 import { OpinionsComponent } from './component/opinions/opinions.component';
+import { LittleMoreComponent } from './component/little-more/little-more.component';
 
 @NgModule({
   declarations: [
@@ -20,7 +21,8 @@ import { OpinionsComponent } from './component/opinions/opinions.component';
     ArticleComponent,
     LastArticleComponent,
     ResumeComponent,
-    OpinionsComponent
+    OpinionsComponent,
+    LittleMoreComponent
   ],
   imports: [
     BrowserModule,
