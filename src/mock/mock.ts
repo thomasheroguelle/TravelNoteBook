@@ -1,4 +1,4 @@
-export interface Article {
+export interface IArticle {
     id: number;
     country: string;
     city: string;
@@ -15,7 +15,7 @@ export interface Article {
   }
 
 
-export const ARTICLES: Article[] = [
+export const ARTICLES: IArticle[] = [
     {
       id: 1,
       country: "Albanie",

@@ -1,4 +1,5 @@
 import { Component } from '@angular/core';
+import { ARTICLES, IArticle } from 'src/mock/mock';
 
 @Component({
   selector: 'app-home-page',
@@ -6,5 +7,6 @@ import { Component } from '@angular/core';
   styleUrls: ['./home-page.component.css']
 })
 export class HomePageComponent {
-
+// article = ARTICLES;
+article: IArticle = ARTICLES[0];
 }
