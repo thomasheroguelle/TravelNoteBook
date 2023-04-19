@@ -8,7 +8,7 @@
 
 .background {
     background-color: #C96B41;
-    padding: 50px;
+    padding: 40px;
     width: 100%;
     max-width: 1230px;
 }
@@ -18,11 +18,9 @@
     color: white;
 }
 
-h2 {
-    font-family: 'Lora', sans-serif;
-    font-size: 60px;
-    font-weight: lighter;
+h2 { 
     align-self: flex-start;
     margin-bottom: 44px;
 }
+
 

@@ -1,0 +1,32 @@
+.list-style-none {
+    list-style-type: none;
+}
+
+h2 {
+    margin-top: 113px;
+    margin-bottom: 44px;
+}
+
+.container {
+    margin-bottom: 114px;
+}
+.container li {
+    text-align: left;
+}
+
+.margin-bottom {
+    margin-bottom: 33px;
+    font-size: 24px;
+    font-style: 'Lora', sans-serif;
+}
+
+.positivePoints,
+.negativePoints {
+    margin-bottom: 57px;
+}
+
+ul li:not([class]) {
+    font-size: 20px;
+    font-style: 'Inter', sans-serif;
+
+}
