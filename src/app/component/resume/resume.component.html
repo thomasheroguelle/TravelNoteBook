@@ -1,10 +1,13 @@
-<div class="container" *ngFor="let text of resume">
-    <h2> Le voyage </h2>
-    <div class="background">
-        <p> {{text.description}} </p>
-    </div>
-    <h2> En résumé </h2>
+<h2> Le voyage </h2>
+<div class="container background" *ngFor="let text of resume">
+    <p> {{text.description}} </p>
+</div>
+
+<app-opinions></app-opinions>
+
+<h2> En résumé </h2>
+<div class="container background" *ngFor="let text of resume">
+
     <div class="background">
         <p> {{text.summary}} </p>
     </div>
-</div>

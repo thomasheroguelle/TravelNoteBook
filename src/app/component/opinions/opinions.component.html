@@ -1,0 +1,26 @@
+<div class="container" *ngFor="let advices of opinion">
+    <h2>Notre avis</h2>
+    <div class="positivePoints">
+        <ul>
+            <li class="list-style-none margin-bottom">{{advices.positivePoints[0]}}</li>
+            <li>{{advices.positivePoints[1]}}</li>
+            <li>{{advices.positivePoints[2]}}</li>
+            <li>{{advices.positivePoints[3]}}</li>
+        </ul>
+    </div>
+
+    <div class="negativePoints">
+        <ul>
+            <li class="list-style-none margin-bottom">{{advices.negativePoints[0]}}</li>
+            <li>{{advices.negativePoints[1]}} </li>
+            <li>{{advices.negativePoints[2]}} </li>
+        </ul>
+    </div>
+
+    <div class="tips">
+        <ul>
+            <li class="list-style-none margin-bottom">{{advices.tips[0]}}</li>
+            <li>{{advices.tips[1]}}</li>
+        </ul>
+    </div>
+</div>
