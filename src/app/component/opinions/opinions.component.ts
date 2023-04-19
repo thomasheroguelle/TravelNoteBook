@@ -1,5 +1,6 @@
 import { Component } from '@angular/core';
-import { ARTICLES } from 'src/mock/mock';
+import { CommonServiceService } from 'src/app/service/common-service.service';
+import { ARTICLES, IArticle } from 'src/mock/mock';
 
 @Component({
   selector: 'app-opinions',
@@ -8,5 +9,13 @@ import { ARTICLES } from 'src/mock/mock';
 })
 export class OpinionsComponent {
 
-  opinion = ARTICLES
+  constructor(private articleService : CommonServiceService) {}
+
+  opinion = ARTICLES;
+  articles : IArticle[] = ARTICLES;
+
+  getDataByFilter() {
+    this.articleService.filterArticle(this.articles);
+  }
+
 }

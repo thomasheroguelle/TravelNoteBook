@@ -1,0 +1,13 @@
+.gallery {
+	display: flex;
+	flex-wrap: wrap;
+	justify-content : baseline;
+	align-items: center;
+    gap: 35px;
+}
+
+img {
+	width: 320px;
+	height: 320px;
+}
+  

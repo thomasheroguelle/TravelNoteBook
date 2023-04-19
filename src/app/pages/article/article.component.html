@@ -5,6 +5,7 @@
   </div>
   <img src={{article.image}} alt="">
 
-  <app-resume></app-resume>
+  <app-resume [title]="'En résumé'" [text]="article!.description"></app-resume>
+  <app-little-more [galerie]="article!.galerie"></app-little-more>
 </div>
 
