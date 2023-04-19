@@ -8,8 +8,7 @@ import { ARTICLES, IArticle } from 'src/mock/mock';
   styleUrls: ['./last-article.component.css']
 })
 export class LastArticleComponent {
-
-
+  
   // boucle image 
   test: IArticle[] = ARTICLES;
 

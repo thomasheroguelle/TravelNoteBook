@@ -1,0 +1,28 @@
+.container {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    margin-top: 44px;
+}
+
+.background {
+    background-color: #C96B41;
+    padding: 50px;
+    width: 100%;
+    max-width: 1230px;
+}
+
+.background p {
+    font-size: 20px;
+    color: white;
+}
+
+h2 {
+    font-family: 'Lora', sans-serif;
+    font-size: 60px;
+    font-weight: lighter;
+    align-self: flex-start;
+    margin-bottom: 44px;
+}
+

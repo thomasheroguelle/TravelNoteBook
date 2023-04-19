@@ -8,6 +8,7 @@ import { FooterComponent } from './component/footer/footer.component';
 import { HomePageComponent } from './pages/home-page/home-page.component';
 import { ArticleComponent } from './pages/article/article.component';
 import { LastArticleComponent } from './component/last-article/last-article.component';
+import { ResumeComponent } from './component/resume/resume.component';
 
 @NgModule({
   declarations: [
@@ -16,7 +17,8 @@ import { LastArticleComponent } from './component/last-article/last-article.comp
     FooterComponent,
     HomePageComponent,
     ArticleComponent,
-    LastArticleComponent
+    LastArticleComponent,
+    ResumeComponent
   ],
   imports: [
     BrowserModule,

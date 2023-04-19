@@ -9,6 +9,7 @@
 img {
     width: min(1231px, 90%);
     max-height: 686.01px;
+    margin-bottom: 115px;
  }
 
  /* GENERAL */
@@ -21,3 +22,4 @@ img {
     font-family: 'Inter', sans-serif;
     font-size: 16px;
  }
+
