@@ -1,3 +1,23 @@
-p {
-    margin-left: 200px;
+.container {
+    text-align: left;
+    margin-left: 150px;
 }
+.text-infos {
+    margin-top: 69px;
+    margin-bottom: 40px;
+}
+img {
+    width: min(1231px, 90%);
+    max-height: 686.01px;
+ }
+
+ /* GENERAL */
+ h2 {
+    font-family: 'Lora', sans-serif;
+    font-size: 60px;
+    font-weight: lighter;
+ }
+ p {
+    font-family: 'Inter', sans-serif;
+    font-size: 16px;
+ }
