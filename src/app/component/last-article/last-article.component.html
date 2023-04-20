@@ -1,10 +1,12 @@
+<div *ngFor="let lastTravel of topImage"> 
+    <section routerLink="/article/{{lastTravel.id}}"> 
+        <img src="{{lastTravel.image}}" alt="lastTravel.country">
+        <div>
+            {{lastTravel.country}} - {{lastTravel.city}}
+            </div>
+            <div class="imageDate">
+                {{lastTravel.beginDate}} - {{lastTravel.endDate}}
+            </div>
+    </section>
 
 
-<ul style="display: flex; justify-content: center;">
-    <li 
-    style="list-style: none;" *ngFor="let article of test">
-        <a routerLink="/article/{{article.id}}"> 
-        <img src="{{ article.image }}" alt="">
-    </a>
-    </li>
-</ul>

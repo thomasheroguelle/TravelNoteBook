@@ -10,8 +10,7 @@ import { ARTICLES, IArticle } from 'src/mock/mock';
 export class LastArticleComponent {
   
   // boucle image 
-  test: IArticle[] = ARTICLES;
+  topImage: IArticle[] = ARTICLES;
 
- 
 }
 

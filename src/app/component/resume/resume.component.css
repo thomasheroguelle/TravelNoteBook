@@ -1,27 +1,5 @@
-.container {
-    display: flex;
-    flex-direction: column;
-    justify-content: center;
-    align-items: center;
-    margin-top: 44px;
-    border: 2px solid green;
-}
-
-.background {
+section p{
     background-color: #C96B41;
-    padding: 40px;
-    width: 100%;
-    max-width: 1230px;
-}
-
-.background p {
-    font-size: 20px;
     color: white;
+    padding: 40px;
 }
-
-h2 { 
-    align-self: flex-start;
-    margin-bottom: 44px;
-}
-
-

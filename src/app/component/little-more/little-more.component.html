@@ -1,6 +1,7 @@
-<h2>Pour voyager un peu plus</h2>
+<h2 style="margin-bottom: 44px">Pour voyager un peu plus</h2>
 
 <div class="gallery">
-    <img *ngFor="let img of galerie" src="{{img.image}}" alt="">
+    
+    <img *ngFor="let img of galerie" src="{{img.image}}" alt="{{img.title}}">
 </div>
 
