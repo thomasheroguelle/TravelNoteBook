@@ -11,6 +11,7 @@ import { LastArticleComponent } from './component/last-article/last-article.comp
 import { ResumeComponent } from './component/resume/resume.component';
 import { OpinionsComponent } from './component/opinions/opinions.component';
 import { LittleMoreComponent } from './component/little-more/little-more.component';
+import { BackButtonComponent } from './component/back-button/back-button.component';
 
 @NgModule({
   declarations: [
@@ -22,7 +23,8 @@ import { LittleMoreComponent } from './component/little-more/little-more.compone
     LastArticleComponent,
     ResumeComponent,
     OpinionsComponent,
-    LittleMoreComponent
+    LittleMoreComponent,
+    BackButtonComponent
   ],
   imports: [
     BrowserModule,
