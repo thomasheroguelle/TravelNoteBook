@@ -1,14 +1,19 @@
 <div class="header-container">
-    <div class="display-flex">
-      <div class="rubrique">
-        <p>Carnet de voyage</p>
+  <div class="display-flex">
+    <div class="rubrique">
+      <p>Carnet de voyage</p>
     </div>
-      <div class="rubrique">
-        <div class="vide"></div>
+    <div class="rubrique">
+      <div class="vide"></div>
     </div>
-      <div class="rubrique last-child">
-        <p>Tirana <br> 31°C</p>
+    <div class="rubrique last-child">
+      <div *ngFor="let day of weatherData?.days">
+        <p style="text-align: center" *ngIf="day.datetime === getCurrentDate()">
+          ☀ {{ day.temp | temperature}}
+          <br>
+          {{ address }}
+        </p>
       </div>
     </div>
   </div>
-  
+</div>

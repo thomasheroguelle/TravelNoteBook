@@ -1,5 +1,4 @@
 import { Component } from '@angular/core';
-import { ActivatedRoute, Router } from '@angular/router';
 import { ARTICLES, IArticle } from 'src/mock/mock';
 
 @Component({

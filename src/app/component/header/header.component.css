@@ -3,7 +3,6 @@ p {
     margin: 10px 10px;
     writing-mode: vertical-lr;
     transform: rotate(180deg);
-    font-weight: bold;
     font-family: 'Inter', sans-serif;
 }
 
@@ -42,5 +41,14 @@ p {
 /* border  */
 .rubrique:last-child {
     border: none;
+   
 }
 
+.date {
+    border: 2px solid red;
+    bottom: 0;
+    padding: 100px;
+}
+.date li  {
+    font-size: 32px;
+}
