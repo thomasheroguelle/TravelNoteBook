@@ -12,6 +12,8 @@ import { ResumeComponent } from './component/resume/resume.component';
 import { OpinionsComponent } from './component/opinions/opinions.component';
 import { LittleMoreComponent } from './component/little-more/little-more.component';
 import { BackButtonComponent } from './component/back-button/back-button.component';
+import { HttpClientModule } from '@angular/common/http';
+import { TemperaturePipe } from 'src/mock/temperature.pipe';
 
 @NgModule({
   declarations: [
@@ -24,11 +26,13 @@ import { BackButtonComponent } from './component/back-button/back-button.compone
     ResumeComponent,
     OpinionsComponent,
     LittleMoreComponent,
-    BackButtonComponent
+    BackButtonComponent,
+    TemperaturePipe
   ],
   imports: [
     BrowserModule,
-    AppRoutingModule
+    AppRoutingModule,
+    HttpClientModule,
   ],
   providers: [],
   bootstrap: [AppComponent]

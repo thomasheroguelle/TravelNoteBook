@@ -19,9 +19,9 @@ export class ArticleComponent {
   getTravelsID() {
     const travelId: number = Number(this.route.snapshot.paramMap.get('id'));
     console.log("l'id est bien récupéré");
-    
+
     const article = ARTICLES.find(article => article.id === travelId);
-    
+
     if (article) {
       this.article = article;
       console.log("id retourné", article);
