@@ -1,39 +1,27 @@
- <!-- <div class="container" *ngFor="let advices of opinion"> 
-    <h2>Notre avis</h2>
+<section>
     <div class="positivePoints">
-        <ul>
-            <li class="list-style-none margin-bottom">{{advices.positivePoints[0]}}</li>
-            <li>{{advices.positivePoints[1]}}</li>
-            <li>{{advices.positivePoints[2]}}</li>
-            <li>{{advices.positivePoints[3]}}</li>
+        <h2 style="margin-bottom : 34px">Notre avis</h2>
+        <ul style="margin-left: 20px;">
+            <li *ngFor="let positivePoint of positivePoints" [class.no-indent]="positivePoint === 'Les plus'">
+                {{positivePoint}}
+            </li>
         </ul>
-    </div>
 
-    <div class="negativePoints">
-        <ul>
-            <li class="list-style-none margin-bottom">{{advices.negativePoints[0]}}</li>
-            <li>{{advices.negativePoints[1]}} </li>
-            <li>{{advices.negativePoints[2]}} </li>
-        </ul>
     </div>
+</section>
 
-    <div class="tips">
-        <ul>
-            <li class="list-style-none margin-bottom">{{advices.tips[0]}}</li>
-            <li>{{advices.tips[1]}}</li>
-        </ul>
-    </div>
-</div> 
- -->
+<section>
+    <ul style="margin-left: 20px;">
+        <li *ngFor="let negativePoint of negativePoints" [class.no-indent]="negativePoint === 'Les moins'">
+            {{negativePoint}}
+        </li>
+    </ul>
+</section>
 
- <div class="container" *ngFor="let article of articles">
-    <h2>test composant "opinions"</h2>
-    <div class="negativePoints">
-        <ul>
-            <li class="test"> {{article.negativePoints}}</li>
-            <li>{{article.negativePoints[1]}} </li>
-            <li>{{article.negativePoints[2]}} </li>
-        </ul>
-    </div>
-
- </div>
+<section style="margin-bottom: 114px;">
+    <ul style="margin-left: 20px;">
+        <li *ngFor="let tip of tips" [class.no-indent]="tip === 'Mon conseil'">
+            {{tip}}
+        </li>
+    </ul>
+</section>

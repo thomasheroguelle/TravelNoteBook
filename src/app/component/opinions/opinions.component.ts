@@ -1,5 +1,4 @@
-import { Component } from '@angular/core';
-import { CommonServiceService } from 'src/app/service/common-service.service';
+import { Component, Input } from '@angular/core';
 import { ARTICLES, IArticle } from 'src/mock/mock';
 
 @Component({
@@ -9,13 +8,8 @@ import { ARTICLES, IArticle } from 'src/mock/mock';
 })
 export class OpinionsComponent {
 
-  constructor(private articleService : CommonServiceService) {}
-
-  opinion = ARTICLES;
-  articles : IArticle[] = ARTICLES;
-
-  getDataByFilter() {
-    this.articleService.filterArticle(this.articles);
-  }
+  @Input() positivePoints!: string[];
+  @Input() negativePoints!: string[];
+  @Input() tips!: string[];
 
 }

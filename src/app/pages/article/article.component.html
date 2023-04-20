@@ -1,11 +1,24 @@
-<div class="container">
-  <div class="text-infos">
-    <h2>{{article.country}} {{article.city}} </h2>
-    <p>{{article.beginDate}} - {{article.endDate}} </p>
-  </div>
-  <img src={{article.image}} alt="">
+<main class="container">*
 
-  <app-resume [title]="'En résumé'" [text]="article!.description"></app-resume>
-  <app-little-more [galerie]="article!.galerie"></app-little-more>
-</div>
+  <!-- noms pays  -->
+  <h2>{{article.country}} - {{article.city}} </h2>
+  <!-- date  -->
+  <p style="margin-bottom: 44px;">{{article.beginDate}} - {{article.endDate}} </p>
 
+  <!-- img principale  -->
+  <img class="imageMain" src={{article.image}} alt="{{article.country}}">
+
+  <!-- description  -->
+  <app-resume [title]="'Le voyage'" [text]="article.description"></app-resume>
+
+  <!-- positivePoints & negatif  -->
+  <app-opinions [positivePoints]="article.positivePoints" [negativePoints]="article.negativePoints" [tips]="article.tips">   </app-opinions>
+
+
+  <!-- description  -->
+  <app-resume [title]="'En résumé'" [text]="article.description"></app-resume>
+
+  <!-- image gallery  -->
+  <app-little-more [galerie]="article.galerie"></app-little-more>
+
+</main>
