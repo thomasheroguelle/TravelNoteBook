@@ -15,6 +15,7 @@ import { BackButtonComponent } from './component/back-button/back-button.compone
 import { HttpClientModule } from '@angular/common/http';
 import { TemperaturePipe } from 'src/mock/temperature.pipe';
 import { OtherTravelsComponent } from './component/other-travels/other-travels.component';
+import { NotfoundComponent } from './pages/notfound/notfound.component';
 
 @NgModule({
   declarations: [
@@ -29,7 +30,8 @@ import { OtherTravelsComponent } from './component/other-travels/other-travels.c
     LittleMoreComponent,
     BackButtonComponent,
     TemperaturePipe,
-    OtherTravelsComponent
+    OtherTravelsComponent,
+    NotfoundComponent,
   ],
   imports: [
     BrowserModule,
