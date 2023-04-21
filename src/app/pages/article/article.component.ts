@@ -27,8 +27,8 @@ export class ArticleComponent {
       console.log("id retourné", article);
     }
     else {
-      console.log("Article introuvable");
-      // rediriger vers 404 
+      this.router.navigate(['/**']);
+  
     }
   }
 
