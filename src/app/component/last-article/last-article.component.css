@@ -3,6 +3,9 @@ img {
     max-height: 686.01px;
     margin : 127px auto;
  }
+ .imageBandeauPays {
+   background-color: red;
+ }
 
  @media screen and (max-width : 1027px) {
    img {
@@ -11,7 +14,5 @@ img {
     align-items: center;
 
    }
- 
-   
-   
+
 }
