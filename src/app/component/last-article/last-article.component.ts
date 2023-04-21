@@ -9,7 +9,10 @@ import { ARTICLES, IArticle } from 'src/mock/mock';
 export class LastArticleComponent {
   
   // boucle image 
-  topImage: IArticle[] = ARTICLES;
+  voyageCard: IArticle[] = ARTICLES;
+
+  imageSelected = this.voyageCard.filter((voyageCard :IArticle) => voyageCard.articleTop === true);
+
 
 }
 

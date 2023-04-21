@@ -94,7 +94,7 @@ export const ARTICLES: IArticle[] = [
       "Prenez une paire de tong !",
     ],
     summary: "L’Albanie est un pays que nous avons adoré visiter, en grande partie grâce à l’accueil chaleureux des Albanais, mais pas seulement ! Nous avons découvert une culture fièrement préservée, une variété de paysages captivante et de nombreux coins tranquilles, y compris au mois de juillet. Seule la côte adriatique sature de touristes l’été. Notre conseil, si vous venez à cette saison, serait alors de s’éloigner de la mer et de privilégier les villages et les montagnes dans le reste du pays, où se concentre à notre avis tout le charme de l’Albanie.",
-    articleTop: true,
+    articleTop: false,
   },
   {
 
@@ -329,7 +329,7 @@ export const ARTICLES: IArticle[] = [
       "Goûtez les spécialités culinaires locales, comme l'okonomiyaki et les huîtres d'Hiroshima.",
     ],
     summary: "Hiroshima est une ville japonaise chargée d'histoire et de mémoire, connue pour avoir été détruite par une bombe atomique lors de la Seconde Guerre mondiale. Aujourd'hui, la ville offre une culture fascinante, des attractions touristiques variées et une cuisine locale délicieuse. Cependant, les sites commémoratifs peuvent être émotionnellement difficiles pour certaines personnes et la ville peut être coûteuse pour les voyageurs avec un budget serré. Mon conseil serait donc de visiter le parc du Mémorial de la Paix et le dôme de Genbaku pour comprendre l'histoire de la ville, ainsi que de goûter les spécialités culinaires locales.",
-    articleTop: false,
+    articleTop: true,
   },
 
 ];
