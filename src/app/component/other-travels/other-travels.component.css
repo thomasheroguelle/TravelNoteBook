@@ -1,0 +1,81 @@
+img {
+    width: 100%;
+    height: 80%;
+    object-fit: cover;
+}
+
+figure {
+    width: 35vw;
+    height: 35vw;
+    background-color: #C96B41;
+}
+
+h2 {
+    margin-bottom: 44px;
+}
+
+p {
+    color: white;
+}
+
+.articlesCard {
+    display: grid;
+    grid-template-columns: repeat(2, 0fr);
+    justify-items: center;
+    align-items: center;
+    gap: 20px;
+}
+
+.bandeau {
+    display: flex;
+    justify-content: space-between;
+    margin: 29px 34px;
+}
+
+.column {
+    display: flex;
+    flex-direction: column;
+}
+
+/* p pays  */
+.pays {
+    font-size: clamp(20px, 5vw, 24px);
+    font-family: 'Lora', sans-serif;
+}
+
+/* p date ville  */
+.ville {
+    font-size: clamp(14px, 5vw, 16px);
+    font-family: 'Inter', sans-serif;
+}
+
+.date {
+    font-size: clamp(12px, 5vw, 16px);
+    font-family: 'Inter', sans-serif;
+}
+
+
+@media screen and (max-width : 1027px) {
+    .articlesCard {
+        display: flex;
+        flex-direction: column;
+        justify-content: center;
+        align-items: center;
+        margin: 0;
+        padding: 0;
+        gap: 44px;
+
+    }
+
+    figure {
+        width: 350px;
+        height: 358px;
+    }
+
+    p {
+        margin: 0;
+        padding: 0;
+    }
+
+
+}

@@ -9,4 +9,5 @@ import { ARTICLES, IArticle } from 'src/mock/mock';
 export class HomePageComponent {
 // article = ARTICLES;
 article: IArticle = ARTICLES[0];
+
 }

@@ -1,5 +1,4 @@
 import { Component, Input } from '@angular/core';
-import { ARTICLES, IArticle } from 'src/mock/mock';
 
 @Component({
   selector: 'app-opinions',

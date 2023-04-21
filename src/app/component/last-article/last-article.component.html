@@ -1,6 +1,6 @@
 <div *ngFor="let lastTravel of topImage"> 
     <section routerLink="/article/{{lastTravel.id}}"> 
-        <img src="{{lastTravel.image}}" alt="lastTravel.country">
+        <img src="{{lastTravel.image}}" alt="{{lastTravel.country}}">
         <div>
             {{lastTravel.country}} - {{lastTravel.city}}
             </div>

@@ -2,3 +2,16 @@ div {
     cursor: pointer;
 }
 
+main {
+    display: flex;
+    justify-content: center;
+    flex-direction: column;
+    align-items: center;
+    margin-left: 157px;
+}
+@media screen and (max-width : 1027px) {
+    main {
+        margin: 0 auto;
+    }
+
+}
