@@ -1,5 +1,17 @@
 img {
-    width: min(1029px, 100%);
+    width: min(1029px, 90%);
     max-height: 686.01px;
     margin : 127px auto;
  }
+
+ @media screen and (max-width : 1027px) {
+   img {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+
+   }
+ 
+   
+   
+}

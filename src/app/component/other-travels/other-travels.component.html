@@ -1,0 +1,30 @@
+<h2>Autres voyages</h2>
+<div class="articlesCard">
+    <ng-container *ngFor="let travel of travelsCard">
+
+        <figure routerLink="/article/{{travel.id}}" class="Images of travels">
+            <img src="{{travel.image}}" alt="{{travel.city}}">
+            <figcaption class="">
+                <div class="bandeau">
+                    <div class="column">
+                        <p class="pays">{{travel.country}}</p>
+                        <p class="ville">{{travel.city}}</p>
+                    </div>
+
+                    <hr>
+                    <div class="dateBandeau">
+                        <div class="column">
+                            <p class="date">Du {{ travel.beginDate }} </p>
+                            <p class="date">au {{travel.endDate}} </p>
+
+                        </div>
+                    </div>
+                </div>
+
+            </figcaption>
+        </figure>
+
+    </ng-container>
+
+
+</div>
