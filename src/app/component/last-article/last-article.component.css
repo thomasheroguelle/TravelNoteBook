@@ -1,18 +1,62 @@
+.imageBandeauPays p {
+  font-family: 'Lora', sans-serif;
+  font-size: clamp(30px, 5vw, 30px);
+  font-style: normal;
+  font-weight: 400;
+  color: #FFFFFF;
+
+}
+
+.dateBandeauPays p {
+  font-family: 'Inter', sans-serif;
+  font-size: clamp(16px, 5vw, 16px);
+}
+
+.container {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  margin-bottom: 50px;
+
+}
+
+figure {
+  margin-top: 127px;
+  position: relative;
+  width: 95%;
+  max-width: 1029px;
+  max-height: 686.01px;
+}
+
 img {
-    width: min(1029px, 90%);
-    max-height: 686.01px;
-    margin : 127px auto;
- }
- .imageBandeauPays {
-   background-color: red;
- }
+  width: 100%;
+  height: auto;
+  object-fit: cover;
+  display: block;
+  margin: 0 auto;
+  /* centrer l'image horizontalement */
+}
 
- @media screen and (max-width : 1027px) {
-   img {
-    display: flex;
-    justify-content: center;
-    align-items: center;
+.imageBandeauPays {
+  position: absolute;
+  bottom: 0;
+  left: 0;
+  right: 0;
+  background: rgba(201, 107, 65, 0.7);
+  padding: 17px;
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+}
 
-   }
+
+
+@media screen and (min-width: 820px) {
+  .imageBandeauPays {
+    padding: 20px;
+    font-size: 18px;
+  }
+
+
 
 }

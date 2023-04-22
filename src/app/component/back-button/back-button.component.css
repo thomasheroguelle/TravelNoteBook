@@ -3,12 +3,21 @@ img {
     width: 30.07px;
     height: 29.18px;
 }
+
 button {
     background-color: #C96B41;
     border: none;
     padding: 40px;
     position: fixed;
+    bottom: 0;
     right: 0;
 }
 
-/* position relative parent  */
+@media screen and (max-width: 768px) {
+    button {
+        position: fixed;
+        right: 0;
+        bottom: 79%;
+        top: 8%;
+    }
+}
