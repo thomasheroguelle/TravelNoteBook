@@ -1,5 +1,30 @@
-section p{
-    background-color: #C96B41;
+section p {
     color: white;
-    padding: 40px;
+    padding: 80px;
+    text-align: center;
+    font-size: 20px;
+    font-family: 'Inter', sans-serif;
+    white-space: pre-line;
+
 }
+
+.background-color {
+    background-color: #C96B41;
+    max-width: 50%;
+    margin: 0 auto;
+}
+
+h2 {
+    text-align: center;
+}
+
+@media screen and (max-width: 768px) {
+    section p {
+      padding: 30px;
+      font-size: 16px;
+    }
+
+    .background-color {
+      max-width: 90%;
+    }
+  }

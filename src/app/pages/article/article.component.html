@@ -1,20 +1,23 @@
-<main class="container">*
+<main class="container">
 
   <!-- noms pays  -->
+<section>
   <h2>{{article.country}} - {{article.city}} </h2>
-  <!-- date  -->
-  <p style="margin-bottom: 44px;">{{article.beginDate}} - {{article.endDate}} </p>
+    <!-- date  -->
+    <p style="margin-bottom: 44px;">{{article.beginDate}} - {{article.endDate}} </p>
 
-  <!-- img principale  -->
-  <img class="imageMain" src={{article.image}} alt="{{article.country}}">
-
+    <!-- img principale  -->
+    <img class="imageMain" src={{article.image}} alt="{{article.country}}">
+  </section>  
+  
   <app-back-button></app-back-button>
 
   <!-- description  -->
   <app-resume [title]="'Le voyage'" [text]="article.description"></app-resume>
 
   <!-- positivePoints & negatif  -->
-  <app-opinions [positivePoints]="article.positivePoints" [negativePoints]="article.negativePoints" [tips]="article.tips">   </app-opinions>
+  <app-opinions [positivePoints]="article.positivePoints" [negativePoints]="article.negativePoints"
+    [tips]="article.tips"> </app-opinions>
 
 
   <!-- description  -->

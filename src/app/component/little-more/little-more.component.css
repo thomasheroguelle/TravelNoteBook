@@ -1,9 +1,24 @@
-.gallery {
+h2 {
+	text-align: center;
+  }
+  
+  .gallery {
 	display: flex;
 	flex-wrap: wrap;
-	justify-content : baseline;
+	justify-content: center;
 	align-items: center;
-    gap: 35px;
-	border: 2px solid red;
-}
-
+	gap: 20px;
+  }
+  
+  .gallery img {
+	width: 25%;
+	height: 320px;
+	object-fit: cover;
+  }
+  
+  @media screen and (max-width: 768px) {
+	.gallery img {
+	  width: 90%;
+	}
+  }
+  

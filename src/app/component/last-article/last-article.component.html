@@ -1,15 +1,14 @@
-<div *ngFor="let lastTravel of imageSelected">
+<div class="container" *ngFor="let lastTravel of imageSelected">
     <figure routerLink="/article/{{lastTravel.id}}">
         <img src="{{lastTravel.image}}" alt="{{lastTravel.country}}">
-        <div>
-            <figcaption class="imageTop">
-                <div class="imageBandeauPays">
-                    {{lastTravel.country}} - {{lastTravel.city}}
-                </div>
+        <figcaption class="imageTop">
+            <div class="imageBandeauPays">
+                <p> {{lastTravel.country}} - {{lastTravel.city}} </p>
                 <div class="dateBandeauPays">
-                    {{lastTravel.beginDate}} - {{lastTravel.endDate}}
+                    <p> {{lastTravel.beginDate}} - {{lastTravel.endDate}} </p>
                 </div>
-            </figcaption>
-        </div>
+            </div>
+
+        </figcaption>
     </figure>
 </div>
