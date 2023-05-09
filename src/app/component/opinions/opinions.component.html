@@ -1,7 +1,7 @@
 <article>
     <div class="positivePoints">
-        <h2 style="margin-bottom : 34px">Notre avis</h2>
-        <ul style="margin-left: 20px;">
+        <h2>Notre avis</h2>
+        <ul style="margin-left: 10px;">
             <li *ngFor="let positivePoint of positivePoints" [class.no-indent]="positivePoint === 'Les plus'">
                 {{positivePoint}}
             </li>
@@ -11,15 +11,15 @@
 </article>
 
 <article>
-    <ul style="margin-left: 20px;">
+    <ul style="margin-left: 10px;">
         <li *ngFor="let negativePoint of negativePoints" [class.no-indent]="negativePoint === 'Les moins'">
             {{negativePoint}}
         </li>
     </ul>
 </article>
 
-<article style="margin-bottom: 114px;">
-    <ul style="margin-left: 20px;">
+<article>
+    <ul style="margin-left: 10px;">
         <li *ngFor="let tip of tips" [class.no-indent]="tip === 'Mon conseil'">
             {{tip}}
         </li>

@@ -1,3 +1,7 @@
+h2 {
+    font-size: clamp(28px, 5vw, 60px);
+    margin-bottom: 44px;
+}
 li {
     font-family: 'Inter', sans-serif;
     font-size: 20px;
@@ -5,6 +9,7 @@ li {
 li:first-child {
     line-height: 3em;
 }
+
 .no-indent {
     list-style-type: none;
     font-size: 24px;
@@ -33,5 +38,8 @@ article {
   
     .positivePoints {
         margin-left: 0;
+    }
+    h2 {
+        margin-bottom: 36px;
     }
 }
