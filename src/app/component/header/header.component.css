@@ -1,6 +1,5 @@
 /* le paragraphe s'affiche verticalement */
 p {
-    margin: 10px 10px;
     writing-mode: vertical-lr;
     transform: rotate(180deg);
     font-family: 'Inter', sans-serif;
@@ -78,7 +77,6 @@ p {
         flex-direction: row;
         justify-content: space-between;
         align-items: center;
-        margin-left: 19px ;
     }
     p {
         margin: 10px 10px;

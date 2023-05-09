@@ -4,12 +4,13 @@ h2 {
     font-size: 60px;
     font-weight: lighter;
     margin-top: 69px;
-
+    text-align: left;
 }
 
 p {
     font-family: 'Inter', sans-serif;
     font-size: 16px;
+    text-align: left;
 }
 
 img {

@@ -9,7 +9,6 @@
 
 .dateBandeauPays p {
   font-family: 'Inter', sans-serif;
-  font-size: clamp(16px, 5vw, 16px);
 }
 
 .container {
@@ -17,7 +16,6 @@
   justify-content: center;
   align-items: center;
   margin-bottom: 50px;
-
 }
 
 figure {
@@ -34,7 +32,6 @@ img {
   object-fit: cover;
   display: block;
   margin: 0 auto;
-  /* centrer l'image horizontalement */
 }
 
 .imageBandeauPays {
@@ -50,13 +47,32 @@ img {
 }
 
 
+@media screen and (max-width: 820px) {
+  .imageBandeauPays {
+    padding: 30px;
+  }
+
+  .imageBandeauPays p {
+    font-size: 15px;
+  }
+
+  .dateBandeauPays p {
+    font-size: 10px;
+  }
+ 
+ 
+}
 
 @media screen and (min-width: 820px) {
   .imageBandeauPays {
-    padding: 20px;
-    font-size: 18px;
+    padding: 45px;
   }
 
+  .imageBandeauPays p {
+    font-size: 30px;
+  }
 
-
+  .dateBandeauPays p {
+    font-size: 16px;
+  }
 }
