@@ -1,21 +1,22 @@
 section p {
     color: white;
     padding: 80px;
-    text-align: center;
+    text-align: left;
     font-size: 20px;
     font-family: 'Inter', sans-serif;
     white-space: pre-line;
-
 }
+
+
+
 
 .background-color {
     background-color: #C96B41;
-    max-width: 50%;
-    margin: 0 auto;
+    max-width: 90%;
 }
 
 h2 {
-    text-align: center;
+    text-align: left;
 }
 
 @media screen and (max-width: 768px) {

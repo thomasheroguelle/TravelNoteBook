@@ -14,7 +14,7 @@ p {
 
 img {
     width: 100%;
-    max-width: 1029px;
+    max-width: 1414px;
     max-height: 686.01px;
     margin-bottom: 115px;
     object-fit: cover;
@@ -22,16 +22,22 @@ img {
 
 section h2,
 section p {
-    text-align: center;
+    text-align: left;
+}
+main .container {
+    /* display: flex;
+    justify-content: center;
+    flex-direction: column;
+    align-items: center; */
+    margin-left: 157px;
 }
 
-.imageMain {
-    display: block;
-    margin: 0 auto;
-}
 
 @media screen and (max-width: 768px) {
     img {
         width: 90%;
     }
 }
+
+
+

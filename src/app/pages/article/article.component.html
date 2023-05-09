@@ -11,10 +11,13 @@
   </section>  
   
   <app-back-button></app-back-button>
-
+  
   <!-- description  -->
-  <app-resume [title]="'Le voyage'" [text]="article.description"></app-resume>
-
+  <section>   
+    <app-resume [title]="'Le voyage'" [text]="article.description">
+  
+  </app-resume>
+</section>
   <!-- positivePoints & negatif  -->
   <app-opinions [positivePoints]="article.positivePoints" [negativePoints]="article.negativePoints"
     [tips]="article.tips"> </app-opinions>

@@ -1,4 +1,4 @@
-<section>
+<article>
     <div class="positivePoints">
         <h2 style="margin-bottom : 34px">Notre avis</h2>
         <ul style="margin-left: 20px;">
@@ -8,21 +8,21 @@
         </ul>
 
     </div>
-</section>
+</article>
 
-<section>
+<article>
     <ul style="margin-left: 20px;">
         <li *ngFor="let negativePoint of negativePoints" [class.no-indent]="negativePoint === 'Les moins'">
             {{negativePoint}}
         </li>
     </ul>
-</section>
+</article>
 
-<section style="margin-bottom: 114px;">
+<article style="margin-bottom: 114px;">
     <ul style="margin-left: 20px;">
         <li *ngFor="let tip of tips" [class.no-indent]="tip === 'Mon conseil'">
             {{tip}}
         </li>
     </ul>
-</section>
+</article>
 

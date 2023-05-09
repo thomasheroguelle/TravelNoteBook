@@ -1,6 +1,6 @@
 .imageBandeauPays p {
   font-family: 'Lora', sans-serif;
-  font-size: clamp(30px, 5vw, 30px);
+  font-size: clamp(15px, 5vw, 30px);
   font-style: normal;
   font-weight: 400;
   color: #FFFFFF;
@@ -42,7 +42,7 @@ img {
   bottom: 0;
   left: 0;
   right: 0;
-  background: rgba(201, 107, 65, 0.7);
+  background-color: #C96B41;
   padding: 17px;
   display: flex;
   justify-content: space-between;

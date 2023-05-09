@@ -10,8 +10,8 @@ li:first-child {
     font-size: 24px;
     font-family: 'Lora', sans-serif;
 }
-section {
-    text-align: center;
+article {
+    text-align: left;
 }
 
 @media screen and (max-width: 768px) {
@@ -27,7 +27,7 @@ section {
     li {
         font-size: 16px;
     }
-    section {
+    article {
         text-align: left;
     }
   
