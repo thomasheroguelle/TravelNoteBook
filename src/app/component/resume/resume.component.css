@@ -1,36 +1,39 @@
-h2 {
-  text-align: left;
-}
-
 section p {
-    color: white;
-    padding: 80px;
-    text-align: left;
-    font-size: 20px;
-    font-family: 'Inter', sans-serif;
-    white-space: pre-line;
+  color: white;
+  padding: 80px;
+  text-align: left;
+  font-size: 20px;
+  font-family: 'Inter', sans-serif;
 }
-
-
 
 
 .background-color {
-    background-color: #C96B41;
-    max-width: 77%;
+  background-color: #C96B41;
+  max-width: 77%;
 }
 
 h2 {
-    text-align: left;
+  text-align: left;
+  font-size: clamp(28px, 5vw, 60px);
 }
 
-@media screen and (max-width: 768px) {
-    section p {
-      padding: 30px;
-      font-size: 16px;
-    }
 
-    .background-color {
-      max-width: 90%;
-    }
+@media screen and (max-width: 1027px) {
+
+  .background-color {
+    max-width: 95%;
+    padding: 0;
+    display: flex;
+    justify-content: center;
+    flex-direction: column;
+    align-items: center;
   }
- 
+  .background-color p {
+    font-size: 18px;
+    padding: 15px;
+  }
+section p {
+  white-space: pre-line;
+}
+
+}
