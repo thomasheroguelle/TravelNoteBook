@@ -14,24 +14,13 @@ p {
 }
 
 img {
-    width: 100%;
+    width: 90%;
     max-width: 1414px;
     max-height: 686.01px;
     margin-bottom: 115px;
     object-fit: cover;
 }
 
-section h2,
-section p {
-    text-align: left;
-}
-main .container {
-    /* display: flex;
-    justify-content: center;
-    flex-direction: column;
-    align-items: center; */
-    margin-left: 157px;
-}
 
 
 @media screen and (max-width: 768px) {
