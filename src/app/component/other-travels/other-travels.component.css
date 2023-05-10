@@ -115,10 +115,12 @@ img {
         margin: 0;
         padding: 0;
         gap: 50px;
-        border: 2px solid red;
     }
     figure {
         width: 450px;
         height: 450px;
+    }
+    h2 {
+        margin-left: 25px;
     }
 }
