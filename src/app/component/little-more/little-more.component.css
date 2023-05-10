@@ -1,29 +1,31 @@
-
- h2 {
+h2 {
 	font-size: clamp(28px, 5vw, 60px);
 	margin-bottom: 37px;
- } 
- 
- .gallery  {
+}
+
+.gallery {
 	display: flex;
 	flex-wrap: wrap;
 	gap: 40px;
- }
- 
- 
-  
-  .gallery img {
-	max-width: 320px;
-    height: 320px;
+}
+
+
+
+.gallery img {
+	max-width: 372px;
+	height: 320px;
 	width: 100%;
 	object-fit: cover;
-  }
-  
-  @media screen and (max-width: 768px) {
+}
+
+@media screen and (max-width: 768px) {
 	.gallery img {
-	  width: 95%;
+		width: 95%;
 	}
-  }
+}
 
-
-  
+@media screen and (max-width: 805px) {
+	.gallery img {
+		margin: 0 auto;
+	}
+}
