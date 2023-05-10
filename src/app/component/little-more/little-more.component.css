@@ -1,24 +1,31 @@
 h2 {
-	text-align: center;
-  }
-  
-  .gallery {
+	font-size: clamp(28px, 5vw, 60px);
+	margin-bottom: 37px;
+}
+
+.gallery {
 	display: flex;
 	flex-wrap: wrap;
-	justify-content: center;
-	align-items: center;
-	gap: 20px;
-  }
-  
-  .gallery img {
-	width: 25%;
+	gap: 40px;
+}
+
+
+
+.gallery img {
+	max-width: 372px;
 	height: 320px;
+	width: 100%;
 	object-fit: cover;
-  }
-  
-  @media screen and (max-width: 768px) {
+}
+
+@media screen and (max-width: 768px) {
 	.gallery img {
-	  width: 90%;
+		width: 95%;
 	}
-  }
-  
+}
+
+@media screen and (max-width: 805px) {
+	.gallery img {
+		margin: 0 auto;
+	}
+}

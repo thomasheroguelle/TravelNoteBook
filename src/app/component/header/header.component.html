@@ -11,7 +11,7 @@
         <p style="text-align: center" *ngIf="day.datetime === getCurrentDate()">
           ☀ {{ day.temp | temperature}}
           <br>
-          {{ address }}
+          {{weatherData.address}}
         </p>
       </div>
     </div>

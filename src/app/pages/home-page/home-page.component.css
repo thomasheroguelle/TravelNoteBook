@@ -2,15 +2,14 @@ div {
     cursor: pointer;
 }
 
-main {
+section {
     display: flex;
     justify-content: center;
     flex-direction: column;
     align-items: center;
-    margin-left: 157px;
 }
 @media screen and (max-width : 1027px) {
-    main {
+    section {
         margin: 0 auto;
     }
 
